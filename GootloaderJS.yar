@@ -1,9 +1,9 @@
 rule Gootloader_js {
 	meta:		
 		TLP = "CLEAR"
-		description = "Detects Gootloader JS hidden in Material Design Lite 1.1.2 Library"
+		description = "Detects Gootloader JS hidden in Material Design Lite 1.3.0 Library"
 		author = "@Gootloader"
-		date = "2023-09-13"
+		date = "2023-09-18"
 		threat_names = "Gootloader"
 	strings:
 		$js_pattern = /[a-z0-9]{1,}\([0-9]{1,5}\);/
