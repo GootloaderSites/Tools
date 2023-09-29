@@ -15,5 +15,5 @@ rule MAL_JS_Gootloader_Sep23 {
 		uint16(0) == 0x283b
 		and filesize > 100KB and filesize < 200KB 
 		and $string1 at 0
-        and all of them
+		and all of them
 }
